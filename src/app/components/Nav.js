@@ -4,7 +4,7 @@ import Btn from './Btn';
 
 export default () => (
     <div>
-        <Link href='/' passHref><Btn>Index</Btn></Link>
-        <Link href='/contact-us' passHref><Btn>Kontakt</Btn></Link>
+        <Link href='/' passHref><Btn></Btn></Link>
+        <Link href='/contact-us' passHref><Btn></Btn></Link>
     </div>
 );
